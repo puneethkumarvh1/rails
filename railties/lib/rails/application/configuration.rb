@@ -51,7 +51,7 @@ module Rails
         @ssl_options                             = {}
         @session_store                           = nil
         @time_zone                               = "UTC"
-        @beginning_of_week                       = :monday
+        @beginning_of_week                       = :sunday
         @log_level                               = :debug
         @log_file_size                           = nil
         @generators                              = app_generators
